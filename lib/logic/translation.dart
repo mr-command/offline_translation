@@ -11,7 +11,6 @@ Future<String> translate(String greet) async {
     greet,
   );
 
-  print(result);
 
   await translator.close();
 
